@@ -459,6 +459,10 @@
 }
 #endif
 
+- (instancetype)init 
+{
+  @throw nil;
+}
 
 - (BOOL)open
 {
